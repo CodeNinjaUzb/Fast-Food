@@ -42,7 +42,6 @@ const Header = () => {
     dispatch(cartUiActions.toggle());
   };
 
-  console.log(menuRef?.current?.classList.value);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
