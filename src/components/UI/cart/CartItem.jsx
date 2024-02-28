@@ -37,7 +37,7 @@ const CartItem = ({ item, onClose }) => {
   };
 
   const handlePizzaSelection = () =>  {
-    navigate(`/pizzas/${id}`);
+    navigate(`/foods/${id}`);
     onClose(); 
   }
 
